@@ -1,8 +1,10 @@
 #PulseTask
 A fast, modern, zero-dependency browser-based task management application engineered for fluid workflow execution and seamless state persistence.
+
 Overview
 
 PulseTask is a lightweight, responsive productivity web application designed to keep your focus intact. Built entirely with vanilla JavaScript, modern CSS variables, and HTML5 semantic elements, PulseTask delivers a fluid experience with interactive drag-and-drop ordering, real-time search filtering, dynamic categorization, and native localStorage state management.
+
 Key Features
 
 * Complete CRUD Operations: Create, edit, complete, and delete tasks instantly.
@@ -16,7 +18,9 @@ Key Features
 * Markup: Semantic HTML5 (<header>, <main>, <section>, <form>) with accessibility considerations.
 * Styling: CSS3 utilizing CSS Custom Properties (Variables), Flexbox, CSS Grid, and custom keyframe animations.
 * Logic: Vanilla JavaScript (ES6+) structured around state-driven UI rendering, XSS sanitization, and event delegation.
+
 Data Model Schema
+
 Each task object stored within the application state follows this schema:
 {
 "id": "task_1700000000000_abc12",
