@@ -1,8 +1,10 @@
 #PulseTask
 A fast, modern, zero-dependency browser-based task management application engineered for fluid workflow execution and seamless state persistence.
 Overview
+
 PulseTask is a lightweight, responsive productivity web application designed to keep your focus intact. Built entirely with vanilla JavaScript, modern CSS variables, and HTML5 semantic elements, PulseTask delivers a fluid experience with interactive drag-and-drop ordering, real-time search filtering, dynamic categorization, and native localStorage state management.
 Key Features
+
 * Complete CRUD Operations: Create, edit, complete, and delete tasks instantly.
 * Category Tagging: Organize tasks into Work, Personal, Study, and Health buckets with distinct color badges.
 * Live Search & Filtering: Filter tasks instantly by title via real-time search or switch view modes (All, Active, Completed).
@@ -27,6 +29,7 @@ Each task object stored within the application state follows this schema:
 }
 
 🚀 Getting Started
+
 Since PulseTask requires no node modules, build steps, or external compilers, running it locally is seamless.
 Prerequisites
 Any modern web browser (Chrome, Firefox, Safari, Edge).
@@ -38,6 +41,7 @@ git clone https://github.com/maicodon/pulsetask.git
 cd pulsetask
 
 3. Open the project:
+   
    * Double-click index.html to open it in your default browser, or
    * Use VS Code's Live Server extension for hot-reloading development.
 📂 Project Structure
@@ -48,11 +52,14 @@ pulsetask/
 └── README.md         # Project documentation and specifications
 
 💡 Usage Guide
+
    1. Adding a Task: Type the task title into the input field, select a category and optional due date, then press Enter or click Add Task.
    2. Filtering Tasks: Click the Active or Completed tabs to change view modes, or type in the Search input to dynamically filter items by title.
    3. Reordering: Click and drag any task item up or down to reorder the list. The new sequence persists automatically in localStorage.
    4. Completing/Deleting: Click the checkbox to toggle completion status. Use the trash icon button to trigger the removal animation and delete the item.
+      
 Contributing
+
 Contributions are welcome! If you'd like to improve PulseTask:
    1. Fork the Project.
    2. Create your Feature Branch (git checkout -b feature/AmazingFeature).
